@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-image: url(../img/fond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    display: inline-flex;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    height: 48px;
+    filter: drop-shadow(0 0 10px rgb(75, 73, 73));
+    margin-left: 50px;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 5px rgb(153, 149, 149));
+    transition: filter 400ms;
+}
+
+h1 {
+    margin-left: 120px;
+    font-size: 3em;
+}
+
+h1:hover{
+    text-shadow: 0 0 20px white;
+    transition: text-shadow 400ms;
+}
+
+.main-contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 1000px;
+    height: 500px;
+    display: inline-flex;
+}
+
+
+.main-text{
+    width: 700px;
+    height: 470px;
+    display: inline-block;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.texto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.text{
+    width: 600px;
+    height: 250px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.main-out{
+    width: 300px;
+    height: 470px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+.texto2 {
+    width: 250px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+.botones{
+    display: inline-flex;
+    margin-left: 40px;
+}
+
+.adverstencia{
+    display: inline-flex;
+    margin-left: 40px;
+    width: 100%;
+}
+.exclamacion{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(206, 206, 206);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.encriptar,.desencriptar{
+    width: 170px;
+    height: 60px;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px 0;
+}
+
+.desencriptar{
+    margin-left: 30px;
+}
