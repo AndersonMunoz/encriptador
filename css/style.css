@@ -119,8 +119,10 @@ h1:hover{
     align-items: center;
     display: flex;
     margin: 20px 0;
+    cursor: pointer;
 }
 
 .desencriptar{
     margin-left: 30px;
+    
 }
