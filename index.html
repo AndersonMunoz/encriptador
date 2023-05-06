@@ -19,23 +19,27 @@
                 <div class="texto">
                     <textarea placeholder="Ingrese el texto aquí" class="text" name="" id="" cols="30" rows="10"></textarea>
                 </div>
-                <div class="adverstencia"><div class="exclamacion"><i class="fa-solid fa-exclamation"></i></div>Solo letras minúsculas y sin acentos</div><br>
+                <div class="adverstencia"><div class="exclamacion"><i class="fa-solid fa-exclamation"></i></div>&nbsp;Solo letras minúsculas y sin acentos</div><br>
                 <div class="botones">
-                    <div class="encriptar">Encriptar</div>
-                    <div class="desencriptar">Desencriptar</div>
+                    <div class="encriptar" onclick="btnEncriptar()">Encriptar</div>
+                    <div class="desencriptar" onclick="btnDesencriptar()">Desencriptar</div>
                 </div>
             </div>
             <div class="main-out">
-                <div class="texto2">
-                </div><br>
-                <div class="botones">
-                    <div class="copiar">Copiar</div>
+                <textarea class="texto2">
+                </textarea><br>
+                <div class="texto-saliente">
+                    <p class="mensaje1">Ningún mensaje fue encontrado</p><br>
+                    <p class="mensaje2">Ingrese el texto que desea encriptar</p>
+                </div>
+                <div class="botones2">
+                    <div class="copiar" onclick="copiar()">Copiar</div>
                 </div>
             </div>
         </div>
     </div>
     
 
-
+    <script src="js/challenge1.js"></script>
 </body>
 </html>

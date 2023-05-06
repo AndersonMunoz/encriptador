@@ -13,7 +13,8 @@ body {
 .header{
     display: inline-flex;
     width: 100%;
-    height: 120px;
+    height: 60px;
+
     align-items: center;
     color: white;
 }
@@ -31,7 +32,7 @@ body {
 
 h1 {
     margin-left: 120px;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 h1:hover{
@@ -48,16 +49,15 @@ h1:hover{
 
 .contenedor {
     width: 1000px;
-    height: 500px;
+    height: 600px;
     display: inline-flex;
 }
 
 
 .main-text{
-    width: 700px;
-    height: 470px;
+    width: 860px;
+    height: 530px;
     display: inline-block;
-    background-color: aqua;
     justify-content: center;
 }
 
@@ -65,31 +65,57 @@ h1:hover{
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 300px;
+    height: 325px;
     margin-top: 40px;
 }
 
 .text{
     width: 600px;
-    height: 265px;
+    height: 225px;
     padding: 10px;
     font-size: 1.2em;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.596);
+    color: rgb(255, 255, 255);
+    border: none;
 }
+
+.text:focus {
+    box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+    transition: box-shadow 500ms;
+}
+
 .main-out{
-    width: 300px;
-    height: 470px;
-    background-color: brown;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.596);
     display: inline-block;
     justify-content: center;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .texto2 {
     width: 82%;
-    margin: 40px 30px 30px 30px;
+    margin: 10px 30px 50px 20px;
     display: flex;
     justify-content: center;
-    height: 286px;
-    background-color: antiquewhite;
+    height: 230px;
+    background-color: none;
+    background-image: url("../img/Muñeco.png");
+    background-position: center;
+    background-size: 80% 70%;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.text-hidden {
+    display: hidden;
 }
 
 .botones{
@@ -101,6 +127,7 @@ h1:hover{
     display: inline-flex;
     margin-left: 40px;
     width: 100%;
+    color: antiquewhite;
 }
 .exclamacion{
     width: 20px;
@@ -114,28 +141,82 @@ h1:hover{
 .encriptar,.desencriptar{
     width: 170px;
     height: 60px;
-    background-color: brown;
     justify-content: center;
     align-items: center;
     display: flex;
     margin: 20px 0;
     cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
 }
 
 .desencriptar{
     margin-left: 30px;
+    color: white;
+}
+
+.desencriptar:hover {
+    color: rgb(38, 238, 238);
+    transition: font-size 400ms ease, background-color 400ms;
+    font-size: 1.1em;
+    background-color: rgba(44, 44, 44, 0.74);
+}
+
+
+.encriptar {
+    color: white;
+}
+
+.encriptar:hover {
+    color: rgb(77, 253, 33);
+    transition: font-size 400ms ease, background-color 400ms;
+    font-size: 1.1em;
+    background-color: rgba(44, 44, 44, 0.74);
 }
 
 .copiar {
-    background-color: aqua;
+    background-color: black;
     width: 170px;
     height: 60px;
     justify-content: center;
     align-items: center;
     display: flex;
-    margin: 20px 0;
     cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
 }
+
+.copiar:hover {
+    color: rgb(253, 231, 33);
+    transition: font-size 400ms ease, background-color 400ms;
+    font-size: 1.1em;
+    background-color: rgba(44, 44, 44, 0.74);
+}
+
+.texto-saliente {
+    
+    text-align: center;
+    margin: -45px 30px 30px 30px;
+}
+
+.mensaje1{
+    font-weight: 800;
+    font-size: 1.5em;
+    color: white;
+}
+
+.mensaje2{
+    font-size: 1em;
+    margin-top: -15px;
+    color: rgb(223, 223, 223);
+}
+
+.botones2{
+    display: inline-flex;
+    margin-top: -20px;
+}
+
 
 @media only screen and (max-width:1100px) {
     .main-contenedor {
