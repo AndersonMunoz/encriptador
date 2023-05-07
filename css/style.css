@@ -366,5 +366,24 @@ h1:hover{
     .main-out{
         margin-top:40px
     }
+    .main-contenedor {
+        width: 100%;
+        margin-left: 37px;
+
+    }
+
+    .text{
+        width: 100%;
+        margin: 30px;
+        margin-top: 0;
+    }
+
+    h1{
+        font-size: 1.5em;
+        margin-left: 25px;
+    }
+    .header {
+        margin-top: 20px;
+    }
 }
 
